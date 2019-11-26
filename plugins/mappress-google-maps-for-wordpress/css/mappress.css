@@ -1,0 +1,64 @@
+.mapp-align-left {float: left !important;}
+.mapp-align-right {float: right !important;}
+.mapp-align-center {margin-left: auto !important;margin-right: auto !important;}
+.mapp-align-default {}
+.mapp-layout {border: 1px solid black;margin: 5px;padding: 0px;}
+.mapp-map-links {background-color: #f0f0f0;border-top: 1px solid lightgray;border-bottom: 1px solid lightgray;}
+.mapp-map-links a {margin: 2px 15px 2px 5px;text-decoration: none;}
+.mapp-map-links a:hover {text-decoration: underline;}
+.mapp-hidden {display: none;}
+.mapp-dialog {position: relative;display: none;}
+.mapp-dialog-inner {position: absolute;width: 200px;left: 50%;top: 30px;margin-left: -100px;padding: 10px;background-color: white;z-index: 99999999999;text-align: center;border: 1px solid gray;box-shadow: 0px 0px 20px rgba(0,0,0,.75);border-radius: 5px;}
+.mapp-canvas {overflow: hidden !important;padding: 0px !important;margin: 0px;word-wrap: normal;}
+.mapp-canvas img {background-color: transparent !important;max-width: 99999px !important;max-height: none !important;visibility: inherit !important;padding: 0px !important;margin: 0px !important;box-shadow: none !important;border-radius: 0px !important;}
+.mapp-iw * {color: black;line-height: normal;margin: 0px !important;padding: 0px !important;}
+.mapp-iw p {margin: 5px 0 5px 0 !important;}
+.mapp-iw .mapp-title {font-weight: bold;}
+.mapp-iw .mapp-thumb {padding-right: 10px !important;vertical-align: top;float: left;width: 32px;height: 32px;}
+.mapp-iw img {margin: 3px 3px 3px 0px !important;}
+.mapp-iw .mapp-links {clear: both;white-space: nowrap;margin: 4px 0 0 0 !important;padding-top: 4px !important;border-top: 1px solid lightgray;}
+.mapp-iw a, .mapp-iw a:link, .mapp-iw a:active, .mapp-iw a:visited {border: none !important;color: #4272db !important;text-decoration: none !important;}
+.mapp-iw a:hover {color: #4272db !important;text-decoration: underline !important;}
+.mapp-ib {background-color: white;border: 1px solid lightgray;border-collapse: separate;-moz-box-shadow: 5px 5px 5px #888;-webkit-box-shadow: 5px 5px 5px #888;box-shadow: 5px 5px 5px #888;display: none;max-width: 550px;min-width: 200px;overflow: auto;padding: 15px;position: absolute;z-index: 100;}
+.mapp-ib-close {display: block;position: absolute;cursor: pointer;right: 5px;top: 5px;}
+.mapp-ib-tip {position: absolute;top: -10px;left: 20px;margin: 0;border-top: 10px solid white;border-left: 10px solid transparent;border-right: 10px solid transparent;border-bottom: none;padding: 0;width: 0;height: 0;font-size: 0;line-height: 0;z-index: 101;}
+.mapp-poi-list {overflow-y: auto;overflow-x: hidden;max-height: 300px;}
+.mapp-poi-list table {margin-top: 10px;width: 100%;line-height: normal !important;border-collapse: collapse;table-layout: auto;}
+.mapp-poi-list th {font-weight: bold;}
+.mapp-poi-list td {padding: 5px;margin: 0px;border: none;border-bottom: 1px solid lightgray;vertical-align: middle;}
+.mapp-directions {display: none;text-align: left;overflow: none;margin: 10px 0 0 0;}
+.mapp-travelmode {border: 1px solid lightgray !important;display: inline-block;text-align: center;vertical-align: middle;width: 50px;height: 27px;line-height: 27px;background-color: #f5f5f5;padding: 0px;margin: 0px;}
+.mapp-travelmode-on {background-color: #d2d2d2;}
+.mapp-dir-swap {display: inline-block;border: none !important;text-align: center;vertical-align: middle;vertical-align: bottom;width: 24px;height: 24px;line-height: 24px;background-color: transparent;padding: 0px;margin: 0px;position: relative;}
+.mapp-route {margin: 10px 0 0px 0;}
+.mapp-route input {width: 80%;line-height: normal;}
+.mapp-route li {padding: 2px;}
+.adp-list {border: 1px solid lightgray;cursor: pointer;}
+.mapp-dir-renderer table {table-layout: auto;}
+.mapp-dir-renderer td {border: none;border-top: 1px solid #cdcdcd;margin: 0;padding: 0;}
+.mapp-dir-renderer img {max-width: none;}
+.mapp-dir-renderer .adp-marker {margin: 5px;}
+.mapp-dir-icon {cursor: pointer;display: inline-block;vertical-align: middle;margin: 0;padding: 0;background: transparent url("../images/directions.png") no-repeat center center;}
+.mapp-dir-car {width: 15px;height: 12px;background-position: 0px -96px;}
+.mapp-dir-bus {width: 10px;height: 15px;background-position: 0px -426px;}
+.mapp-dir-walk {width: 10px;height: 16px;background-position: 0px -489px;}
+.mapp-dir-bike {width: 17px;height: 14px;background-position: 0px -340px;}
+.mapp-dir-transit {width: 17px;height: 14px;background-position: 0px -425px;}
+.mapp-dir-arrows {width: 10px;height: 12px;background-position: -10px -489px;}
+.mapp-dir-del {width: 7px;height: 7px;background-position: 0px -189px;}
+.mapp-dir-letter {cursor: move;display: inline-block;vertical-align: middle;margin: 0;padding: 0;background: transparent url("../images/directions.png") no-repeat;}
+.mapp-dir-a {width: 24px;height: 24px;background-position: 0px -140px;}
+.mapp-dir-b {width: 24px;height: 24px;background-position: 0px -71px;}
+.mapp-dir-dot {width: 9px;height: 10px;background-position: 0px -108px;}
+.mapp-control {border: black 1px solid;border: 1px solid #717b87;margin: 5px 0px 0px 0px;background-color: white;padding: 1px 6px 1px 6px;box-shadow: 0px 2px 4px rgba(0,0,0,.4);color: #333;cursor: pointer;font-family: Arial,sans-serif;font-size: 13px;text-align: center;}
+.mapp-control * {margin: 0px;padding: 0px;vertical-align: baseline;}
+.mapp-table {display: table;}
+.mapp-table > div {display: table-row;}
+.mapp-table > div > div, .mapp-table > div > label {display: table-cell;}
+.mapp-close {background: transparent url("../images/close.png") no-repeat;cursor: pointer;display: inline-block;height: 15px;margin: 0;opacity: .6;padding: 0;position: absolute;right: 5px;top: 5px;width: 15px;}
+.mapp-close:hover {opacity: 1;}
+.mapp-icon {max-width: 32px !important;max-height: 32px;vertical-align: middle;box-shadow: none !important;}
+.mapp-error {background-color: #ffebe8;background-color: pink;margin: 0;padding: 2px;border: 1px solid red !important;}
+.mapp-spinner {display: inline-block;height: 16px;width: 16px;margin-left: 10px;margin-right: 10px;background: transparent url("../images/loading.gif") no-repeat center center;}
+*[data-mapp-action] {cursor: pointer;}
+.mapp-max {width: 100%;}

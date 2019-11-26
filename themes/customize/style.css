@@ -1,0 +1,18 @@
+h1, h2, h3, h4, h5 {text-transform: none !important;}
+.phone-info {font-size: 15px;}
+#top .social_bookmarks li a {font-size: 14px;}
+.title_container {background-image: url("/wp-content/uploads/2015/06/transflower-swirl4.png");background-repeat: repeat;background-position: bottom left;}
+.title_container .main-title {font-size: 30px;font-weight: 400;}
+.iconbox .iconbox_content .iconbox_content_title {text-transform: none;}
+.news-time {display: none;}
+.post-meta-infos {display: none;}
+.entry-content-wrapper .post-title {font-size: 28px;line-height: 1.3em;}
+blockquote {border-left-style: solid;border-left-width: 3px;font-size: 1em;line-height: 1.5em;margin-bottom: 1em;margin-right: 1em;padding-left: 20px;}
+#top.single-post .big-preview.single-big a, #top.single-post .small-preview {pointer-events: none;cursor: default;}
+.av_dropcap2 {display: block;float: left;font-size: 18px;line-height: 55px;width: 55px;text-align: center;margin: 4px 8px 0 0;border-radius: 100px;font-weight: bold;}
+#mapp0_layout {border: 0px !important;}
+.mapp-dir-close {display: none;}
+.mapp-dir-print {padding-left: 25px;}
+.av_icon_caption {font-size: 24px;text-transform: none;}
+.av_font_icon.av-icon-style-border .av-icon-char {padding: 20px;}
+.avia_textblock h3 {padding-top: 20px;}
